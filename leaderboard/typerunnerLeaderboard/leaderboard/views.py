@@ -9,7 +9,7 @@ from .models import Scoreboard
 
 
 @api_view(['GET'])
-def apiOverview(request):
+def scoreboardOverview(request):
     api_urls = {
         'List' : '/score-list/',
         'Detail View' : '/score-detail/<str:pk>/',
